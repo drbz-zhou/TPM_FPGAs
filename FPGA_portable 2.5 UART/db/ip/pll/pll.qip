@@ -1,0 +1,24 @@
+set_global_assignment -entity "pll" -library "pll" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "pll" -library "pll" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "pll" -library "pll" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "pll" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../../pll.sopcinfo"]
+set_global_assignment -entity "pll" -library "pll" -name SLD_INFO "QSYS_NAME pll HAS_SOPCINFO 1 GENERATION_ID 1466592221"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "pll" -name MISC_FILE [file join $::quartus(qip_path) "../../../pll.qsys"]
+
+set_global_assignment -library "pll" -name VERILOG_FILE [file join $::quartus(qip_path) "pll.v"]
+set_global_assignment -library "pll" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "pll" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "pll" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "pll" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/pll_altpll_1.v"]
+set_global_assignment -library "pll" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/pll_altpll_0.v"]
+
+set_global_assignment -entity "altera_reset_controller" -library "pll" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "pll" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_reset_controller" -library "pll" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "pll_altpll_1" -library "pll" -name IP_TOOL_NAME "altpll"
+set_global_assignment -entity "pll_altpll_1" -library "pll" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "pll_altpll_1" -library "pll" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "pll_altpll_0" -library "pll" -name IP_TOOL_NAME "altpll"
+set_global_assignment -entity "pll_altpll_0" -library "pll" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "pll_altpll_0" -library "pll" -name IP_TOOL_ENV "Qsys"

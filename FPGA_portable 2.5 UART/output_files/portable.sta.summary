@@ -1,0 +1,365 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : -9.340
+TNS   : -166.463
+
+Type  : Slow 1200mV 85C Model Setup 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : -3.235
+TNS   : -6.455
+
+Type  : Slow 1200mV 85C Model Setup 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -3.166
+TNS   : -59.851
+
+Type  : Slow 1200mV 85C Model Setup 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -3.098
+TNS   : -135.449
+
+Type  : Slow 1200mV 85C Model Setup 'clcck_adc'
+Slack : -2.399
+TNS   : -198.718
+
+Type  : Slow 1200mV 85C Model Setup 'adc1_ndrdy'
+Slack : -1.672
+TNS   : -17.300
+
+Type  : Slow 1200mV 85C Model Setup 'clock_in'
+Slack : 15.594
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'adc1_ndrdy'
+Slack : -0.373
+TNS   : -1.213
+
+Type  : Slow 1200mV 85C Model Hold 'clcck_adc'
+Slack : -0.095
+TNS   : -0.095
+
+Type  : Slow 1200mV 85C Model Hold 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_in'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : 3.154
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clcck_adc'
+Slack : -1.952
+TNS   : -17.117
+
+Type  : Slow 1200mV 85C Model Recovery 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -0.940
+TNS   : -16.847
+
+Type  : Slow 1200mV 85C Model Recovery 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -0.647
+TNS   : -9.470
+
+Type  : Slow 1200mV 85C Model Recovery 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 3.671
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.840
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clcck_adc'
+Slack : 0.985
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 4.834
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clcck_adc'
+Slack : -3.000
+TNS   : -187.388
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'adc1_ndrdy'
+Slack : -3.000
+TNS   : -23.818
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -1.487
+TNS   : -126.395
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -1.487
+TNS   : -52.045
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : 4.723
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_in'
+Slack : 9.663
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 124.695
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[0]'
+Slack : 49999.961
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : -8.536
+TNS   : -145.721
+
+Type  : Slow 1200mV 0C Model Setup 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -2.901
+TNS   : -53.432
+
+Type  : Slow 1200mV 0C Model Setup 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -2.883
+TNS   : -125.246
+
+Type  : Slow 1200mV 0C Model Setup 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : -2.737
+TNS   : -5.453
+
+Type  : Slow 1200mV 0C Model Setup 'clcck_adc'
+Slack : -2.177
+TNS   : -174.198
+
+Type  : Slow 1200mV 0C Model Setup 'adc1_ndrdy'
+Slack : -1.479
+TNS   : -14.872
+
+Type  : Slow 1200mV 0C Model Setup 'clock_in'
+Slack : 15.852
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'adc1_ndrdy'
+Slack : -0.455
+TNS   : -1.354
+
+Type  : Slow 1200mV 0C Model Hold 'clcck_adc'
+Slack : -0.085
+TNS   : -0.085
+
+Type  : Slow 1200mV 0C Model Hold 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_in'
+Slack : 0.417
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : 2.767
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clcck_adc'
+Slack : -1.813
+TNS   : -13.220
+
+Type  : Slow 1200mV 0C Model Recovery 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -0.849
+TNS   : -13.520
+
+Type  : Slow 1200mV 0C Model Recovery 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -0.551
+TNS   : -7.640
+
+Type  : Slow 1200mV 0C Model Recovery 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 4.218
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clcck_adc'
+Slack : 0.740
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.792
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 4.302
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clcck_adc'
+Slack : -3.000
+TNS   : -188.144
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'adc1_ndrdy'
+Slack : -3.000
+TNS   : -24.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -1.487
+TNS   : -126.762
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -1.487
+TNS   : -52.045
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : 4.718
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_in'
+Slack : 9.593
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 124.665
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[0]'
+Slack : 49999.963
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : -3.626
+TNS   : -68.674
+
+Type  : Fast 1200mV 0C Model Setup 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : -1.361
+TNS   : -2.718
+
+Type  : Fast 1200mV 0C Model Setup 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -1.019
+TNS   : -39.651
+
+Type  : Fast 1200mV 0C Model Setup 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -0.730
+TNS   : -15.922
+
+Type  : Fast 1200mV 0C Model Setup 'clcck_adc'
+Slack : -0.460
+TNS   : -18.937
+
+Type  : Fast 1200mV 0C Model Setup 'adc1_ndrdy'
+Slack : -0.093
+TNS   : -0.665
+
+Type  : Fast 1200mV 0C Model Setup 'clock_in'
+Slack : 18.035
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clcck_adc'
+Slack : -0.554
+TNS   : -1.200
+
+Type  : Fast 1200mV 0C Model Hold 'adc1_ndrdy'
+Slack : -0.078
+TNS   : -0.269
+
+Type  : Fast 1200mV 0C Model Hold 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_in'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : 1.765
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clcck_adc'
+Slack : -0.268
+TNS   : -0.746
+
+Type  : Fast 1200mV 0C Model Recovery 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 6.893
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clcck_adc'
+Slack : 0.540
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 2.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clcck_adc'
+Slack : -3.000
+TNS   : -148.022
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'adc1_ndrdy'
+Slack : -3.000
+TNS   : -19.417
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'portable:p0|ADCCTL:adcctl1|spi:spi1|sclk_intern'
+Slack : -1.000
+TNS   : -85.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'portable:p0|ADCCTL:adcctl2|spi:spi1|sclk_intern'
+Slack : -1.000
+TNS   : -35.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[3]'
+Slack : 4.729
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_in'
+Slack : 9.438
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[1]'
+Slack : 124.769
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u0|altpll_0|sd1|pll7|clk[0]'
+Slack : 49999.974
+TNS   : 0.000
+
+------------------------------------------------------------

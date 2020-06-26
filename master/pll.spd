@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="pll/simulation/submodules/pll_altpll_0.vo"
+   type="VERILOG"
+   library="altpll_0" />
+ <file path="pll/simulation/pll.v" type="VERILOG" />
+ <topLevel name="pll" />
+ <deviceFamily name="cycloneiii" />
+</simPackage>

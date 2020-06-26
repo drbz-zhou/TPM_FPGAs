@@ -1,0 +1,13 @@
+	component pll is
+		port (
+			altpll_0_areset_conduit_export    : in  std_logic := 'X'; -- export
+			altpll_0_locked_conduit_export    : out std_logic;        -- export
+			altpll_0_phasedone_conduit_export : out std_logic;        -- export
+			pll_c1_clk                        : out std_logic;        -- clk
+			pll_c2_clk                        : out std_logic;        -- clk
+			pll_c0_clk                        : out std_logic;        -- clk
+			clk_1_clk                         : in  std_logic := 'X'; -- clk
+			reset_1_reset                     : in  std_logic := 'X'  -- reset
+		);
+	end component pll;
+

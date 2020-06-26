@@ -1,0 +1,51 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do portable_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Heber/Documents/TU\ Kaiserslautern/second\ semester/job/FPGA_portable {C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/UARTCTL.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 22:33:42 on Jun 16,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable" C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/UARTCTL.v 
+# -- Compiling module UARTCTL
+# 
+# Top level modules:
+# 	UARTCTL
+# End time: 22:33:43 on Jun 16,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Heber/Documents/TU\ Kaiserslautern/second\ semester/job/FPGA_portable {C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/uart.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 22:33:43 on Jun 16,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable" C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/uart.v 
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# End time: 22:33:43 on Jun 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Heber/Documents/TU\ Kaiserslautern/second\ semester/job/FPGA_portable {C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 22:33:43 on Jun 16,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable" C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v 
+# -- Compiling module portable
+# ** Error: C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v(120): near ")": syntax error, unexpected ')', expecting .* or '.'
+# ** Error: C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v(137): near ")": syntax error, unexpected ')', expecting .* or '.'
+# ** Error: C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v(154): near ")": syntax error, unexpected ')', expecting .* or '.'
+# ** Error: C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v(176): near ")": syntax error, unexpected ')', expecting .* or '.'
+# ** Error: C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/portable.v(181): near ")": syntax error, unexpected ')', expecting .* or '.'
+# End time: 22:33:43 on Jun 16,2015, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/altera/14.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./portable_run_msim_rtl_verilog.do line 10
+# C:/altera/14.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Heber/Documents/TU\ Kaiserslautern/second\ semester/job/FPGA_portable {C:/Users/Heber/Documents/TU Kais..."

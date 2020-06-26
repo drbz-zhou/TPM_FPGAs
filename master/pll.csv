@@ -1,0 +1,18 @@
+# system info pll on 2014.06.30.15:48:29
+system_info:
+name,value
+DEVICE,EP3C5E144C8
+DEVICE_FAMILY,Cyclone III
+GENERATION_ID,1404136105
+#
+#
+# Files generated for pll on 2014.06.30.15:48:29
+files:
+filepath,kind,attributes,module,is_top
+pll/simulation/pll.v,VERILOG,,pll,true
+pll/simulation/submodules/pll_altpll_0.vo,VERILOG,,pll_altpll_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+pll.altpll_0,pll_altpll_0

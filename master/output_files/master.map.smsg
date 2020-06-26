@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at SCANCTL2.v(38): object "HEAD" differs only in case from object "head" in the same scope
+Info (10281): Verilog HDL Declaration information at SCANCTL2.v(39): object "COUNTX" differs only in case from object "countx" in the same scope
+Info (10281): Verilog HDL Declaration information at SCANCTL2.v(40): object "COUNTY" differs only in case from object "county" in the same scope
+Info (10281): Verilog HDL Declaration information at ADCCTL.v(10): object "reset" differs only in case from object "RESET" in the same scope

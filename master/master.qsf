@@ -1,0 +1,134 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 16:45:21  October 08, 2013
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		master_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C5E144C8
+set_global_assignment -name TOP_LEVEL_ENTITY master
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:45:21  OCTOBER 08, 2013"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_129 -to sign_gnd
+set_location_assignment PIN_25 -to clock
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_55 -to FSI4
+set_location_assignment PIN_60 -to FSO4
+set_location_assignment PIN_64 -to SCO4
+set_location_assignment PIN_58 -to SDI4
+set_location_assignment PIN_59 -to SDO4
+set_location_assignment PIN_44 -to pll_c1
+set_location_assignment PIN_46 -to SYNC
+set_location_assignment PIN_76 -to CS4
+set_location_assignment PIN_67 -to A[0]
+set_location_assignment PIN_68 -to A[1]
+set_location_assignment PIN_69 -to A[2]
+set_location_assignment PIN_70 -to A[3]
+set_location_assignment PIN_71 -to A[4]
+set_location_assignment PIN_75 -to CS3
+set_location_assignment PIN_49 -to FSI3
+set_location_assignment PIN_52 -to FSO3
+set_location_assignment PIN_53 -to SCO3
+set_location_assignment PIN_50 -to SDI3
+set_location_assignment PIN_51 -to SDO3
+set_location_assignment PIN_135 -to rx4
+set_location_assignment PIN_136 -to tx4
+set_location_assignment PIN_137 -to rx3
+set_location_assignment PIN_138 -to tx3
+set_location_assignment PIN_66 -to ADCRESET
+set_location_assignment PIN_74 -to CS2
+set_location_assignment PIN_33 -to FSI2
+set_location_assignment PIN_39 -to FSO2
+set_location_assignment PIN_42 -to SCO2
+set_location_assignment PIN_34 -to SDI2
+set_location_assignment PIN_38 -to SDO2
+set_location_assignment PIN_141 -to rx2
+set_location_assignment PIN_142 -to tx2
+set_location_assignment PIN_73 -to CS1
+set_location_assignment PIN_11 -to FSI1
+set_location_assignment PIN_30 -to FSO1
+set_location_assignment PIN_31 -to SCO1
+set_location_assignment PIN_28 -to SDO1
+set_location_assignment PIN_143 -to rx1
+set_location_assignment PIN_144 -to tx1
+set_location_assignment PIN_1 -to MUX_O[7]
+set_location_assignment PIN_2 -to MUX_O[6]
+set_location_assignment PIN_3 -to MUX_O[5]
+set_location_assignment PIN_4 -to MUX_O[4]
+set_location_assignment PIN_114 -to MUX_O[3]
+set_location_assignment PIN_7 -to MUX_O[2]
+set_location_assignment PIN_115 -to MUX_O[1]
+set_location_assignment PIN_10 -to MUX_O[0]
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA1_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_FLASH_NCE_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DCLK_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name VERILOG_FILE SCANCTL2.v
+set_global_assignment -name VERILOG_FILE fifo.v
+set_global_assignment -name VERILOG_FILE UARTCTL.v
+set_global_assignment -name VERILOG_FILE pll/simulation/pll.v
+set_global_assignment -name SOURCE_FILE pll.cmp
+set_global_assignment -name VERILOG_FILE uart.v
+set_global_assignment -name VERILOG_FILE master.v
+set_global_assignment -name QSYS_FILE pll.qsys
+set_global_assignment -name VERILOG_FILE ADCCTL.v
+set_global_assignment -name VERILOG_FILE ADCREAD.v
+set_global_assignment -name VERILOG_FILE MUX32.v
+set_global_assignment -name VERILOG_FILE SCANCTL.v
+set_global_assignment -name VERILOG_FILE SIGNEXPAND.v
+set_global_assignment -name VERILOG_FILE SCANCOUNT.v
+set_global_assignment -name VERILOG_FILE SIGNEXPAND_DUO.v
+set_location_assignment PIN_124 -to clk_out
+set_location_assignment PIN_119 -to SDI1
+set_location_assignment PIN_125 -to pll_locked
+set_global_assignment -name QIP_FILE pllneo.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,473 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : -6.482
+TNS   : -452.670
+
+Type  : Slow 1200mV 85C Model Setup 'SCO3'
+Slack : -2.663
+TNS   : -131.741
+
+Type  : Slow 1200mV 85C Model Setup 'SCO4'
+Slack : -2.646
+TNS   : -122.662
+
+Type  : Slow 1200mV 85C Model Setup 'SCO2'
+Slack : -2.475
+TNS   : -118.933
+
+Type  : Slow 1200mV 85C Model Setup 'SCO1'
+Slack : -2.427
+TNS   : -121.000
+
+Type  : Slow 1200mV 85C Model Setup 'ADCREAD:adcread3|result_valid'
+Slack : -2.265
+TNS   : -2.265
+
+Type  : Slow 1200mV 85C Model Setup 'ADCREAD:adcread1|result_valid'
+Slack : -2.131
+TNS   : -2.131
+
+Type  : Slow 1200mV 85C Model Setup 'ADCREAD:adcread2|result_valid'
+Slack : -2.125
+TNS   : -2.125
+
+Type  : Slow 1200mV 85C Model Setup 'ADCREAD:adcread4|result_valid'
+Slack : -2.065
+TNS   : -2.065
+
+Type  : Slow 1200mV 85C Model Setup 'FSO1'
+Slack : -2.027
+TNS   : -26.914
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : -1.305
+TNS   : -4.981
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.842
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SCO1'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SCO2'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSO1'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : 0.491
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SCO3'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SCO4'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ADCREAD:adcread1|result_valid'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ADCREAD:adcread2|result_valid'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ADCREAD:adcread4|result_valid'
+Slack : 0.786
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ADCREAD:adcread3|result_valid'
+Slack : 0.868
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : -0.254
+TNS   : -3.938
+
+Type  : Slow 1200mV 85C Model Removal 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 3.326
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SCO1'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SCO2'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SCO3'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SCO4'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSO1'
+Slack : -3.000
+TNS   : -31.253
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ADCREAD:adcread1|result_valid'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ADCREAD:adcread2|result_valid'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ADCREAD:adcread4|result_valid'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ADCREAD:adcread3|result_valid'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : 2.219
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : 9.675
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 12.219
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 62.191
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : -5.850
+TNS   : -394.687
+
+Type  : Slow 1200mV 0C Model Setup 'SCO3'
+Slack : -2.403
+TNS   : -120.622
+
+Type  : Slow 1200mV 0C Model Setup 'SCO4'
+Slack : -2.377
+TNS   : -112.622
+
+Type  : Slow 1200mV 0C Model Setup 'SCO2'
+Slack : -2.339
+TNS   : -111.847
+
+Type  : Slow 1200mV 0C Model Setup 'SCO1'
+Slack : -2.276
+TNS   : -109.776
+
+Type  : Slow 1200mV 0C Model Setup 'ADCREAD:adcread3|result_valid'
+Slack : -2.212
+TNS   : -2.212
+
+Type  : Slow 1200mV 0C Model Setup 'ADCREAD:adcread2|result_valid'
+Slack : -2.085
+TNS   : -2.085
+
+Type  : Slow 1200mV 0C Model Setup 'ADCREAD:adcread1|result_valid'
+Slack : -2.081
+TNS   : -2.081
+
+Type  : Slow 1200mV 0C Model Setup 'ADCREAD:adcread4|result_valid'
+Slack : -2.032
+TNS   : -2.032
+
+Type  : Slow 1200mV 0C Model Setup 'FSO1'
+Slack : -1.806
+TNS   : -23.823
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : -0.988
+TNS   : -3.735
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 1.252
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SCO1'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SCO4'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSO1'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SCO2'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SCO3'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ADCREAD:adcread1|result_valid'
+Slack : 0.757
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ADCREAD:adcread2|result_valid'
+Slack : 0.824
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ADCREAD:adcread4|result_valid'
+Slack : 0.958
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ADCREAD:adcread3|result_valid'
+Slack : 1.005
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 2.908
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SCO1'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SCO2'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SCO3'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SCO4'
+Slack : -3.000
+TNS   : -90.733
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSO1'
+Slack : -3.000
+TNS   : -31.253
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread2|result_valid'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread4|result_valid'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread1|result_valid'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread3|result_valid'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : 2.216
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : 9.620
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 12.217
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 62.164
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : -3.136
+TNS   : -166.463
+
+Type  : Fast 1200mV 0C Model Setup 'SCO4'
+Slack : -1.407
+TNS   : -34.462
+
+Type  : Fast 1200mV 0C Model Setup 'SCO3'
+Slack : -1.365
+TNS   : -40.652
+
+Type  : Fast 1200mV 0C Model Setup 'SCO1'
+Slack : -1.205
+TNS   : -34.399
+
+Type  : Fast 1200mV 0C Model Setup 'SCO2'
+Slack : -1.148
+TNS   : -31.615
+
+Type  : Fast 1200mV 0C Model Setup 'ADCREAD:adcread3|result_valid'
+Slack : -0.603
+TNS   : -0.603
+
+Type  : Fast 1200mV 0C Model Setup 'ADCREAD:adcread1|result_valid'
+Slack : -0.560
+TNS   : -0.560
+
+Type  : Fast 1200mV 0C Model Setup 'ADCREAD:adcread2|result_valid'
+Slack : -0.537
+TNS   : -0.537
+
+Type  : Fast 1200mV 0C Model Setup 'ADCREAD:adcread4|result_valid'
+Slack : -0.513
+TNS   : -0.513
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : -0.430
+TNS   : -1.631
+
+Type  : Fast 1200mV 0C Model Setup 'FSO1'
+Slack : -0.282
+TNS   : -2.474
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 2.933
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SCO1'
+Slack : -0.021
+TNS   : -0.021
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSO1'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SCO2'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SCO3'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SCO4'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ADCREAD:adcread1|result_valid'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ADCREAD:adcread2|result_valid'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ADCREAD:adcread4|result_valid'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ADCREAD:adcread3|result_valid'
+Slack : 0.489
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 2.445
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 1.561
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SCO4'
+Slack : -3.000
+TNS   : -72.670
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SCO3'
+Slack : -3.000
+TNS   : -71.768
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SCO1'
+Slack : -3.000
+TNS   : -69.844
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SCO2'
+Slack : -3.000
+TNS   : -67.699
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSO1'
+Slack : -3.000
+TNS   : -24.147
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread1|result_valid'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread2|result_valid'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread4|result_valid'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ADCREAD:adcread3|result_valid'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[2]'
+Slack : 2.296
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : 9.477
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[1]'
+Slack : 12.297
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_0|sd1|pll7|clk[0]'
+Slack : 62.268
+TNS   : 0.000
+
+------------------------------------------------------------

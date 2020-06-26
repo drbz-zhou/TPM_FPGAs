@@ -1,0 +1,80 @@
+
+State Machine - |portable_shell|portable:p0|SCANCTL:scan1|state
+Name state.COUNTY state.COUNTX state.HEAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.HEAD 0 0 1 1 
+state.COUNTX 0 1 0 1 
+state.COUNTY 1 0 0 1 
+
+State Machine - |portable_shell|portable:p0|rise_to_high:h1|next_state
+Name next_state.IDLE next_state.HIGH next_state.LOW 
+next_state.IDLE 0 0 0 
+next_state.LOW 1 0 1 
+next_state.HIGH 1 1 0 
+
+State Machine - |portable_shell|portable:p0|rise_to_high:h1|state
+Name state.IDLE state.HIGH state.LOW 
+state.IDLE 0 0 0 
+state.LOW 1 0 1 
+state.HIGH 1 1 0 
+
+State Machine - |portable_shell|portable:p0|ADCCTL:adcctl2|state
+Name state.WAIT state.SEND state.IDLE state.CF_WAIT state.CF_SEND state.CF_LOAD state.RESET 
+state.RESET 0 0 0 0 0 0 0 
+state.CF_LOAD 0 0 0 0 0 1 1 
+state.CF_SEND 0 0 0 0 1 0 1 
+state.CF_WAIT 0 0 0 1 0 0 1 
+state.IDLE 0 0 1 0 0 0 1 
+state.SEND 0 1 0 0 0 0 1 
+state.WAIT 1 0 0 0 0 0 1 
+
+State Machine - |portable_shell|portable:p0|ADCCTL:adcctl2|spi:spi1|next_state
+Name next_state.HALT next_state.FINISH next_state.TRANS next_state.CHIPS next_state.IDLE 
+next_state.IDLE 0 0 0 0 0 
+next_state.CHIPS 0 0 0 1 1 
+next_state.TRANS 0 0 1 0 1 
+next_state.FINISH 0 1 0 0 1 
+next_state.HALT 1 0 0 0 1 
+
+State Machine - |portable_shell|portable:p0|ADCCTL:adcctl2|spi:spi1|state
+Name state.HALT state.FINISH state.TRANS state.CHIPS state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.CHIPS 0 0 0 1 1 
+state.TRANS 0 0 1 0 1 
+state.FINISH 0 1 0 0 1 
+state.HALT 1 0 0 0 1 
+
+State Machine - |portable_shell|portable:p0|ADCCTL:adcctl1|state
+Name state.WAIT state.SEND state.IDLE state.CF_WAIT state.CF_SEND state.CF_LOAD state.RESET 
+state.RESET 0 0 0 0 0 0 0 
+state.CF_LOAD 0 0 0 0 0 1 1 
+state.CF_SEND 0 0 0 0 1 0 1 
+state.CF_WAIT 0 0 0 1 0 0 1 
+state.IDLE 0 0 1 0 0 0 1 
+state.SEND 0 1 0 0 0 0 1 
+state.WAIT 1 0 0 0 0 0 1 
+
+State Machine - |portable_shell|portable:p0|ADCCTL:adcctl1|spi:spi1|next_state
+Name next_state.HALT next_state.FINISH next_state.TRANS next_state.CHIPS next_state.IDLE 
+next_state.IDLE 0 0 0 0 0 
+next_state.CHIPS 0 0 0 1 1 
+next_state.TRANS 0 0 1 0 1 
+next_state.FINISH 0 1 0 0 1 
+next_state.HALT 1 0 0 0 1 
+
+State Machine - |portable_shell|portable:p0|ADCCTL:adcctl1|spi:spi1|state
+Name state.HALT state.FINISH state.TRANS state.CHIPS state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.CHIPS 0 0 0 1 1 
+state.TRANS 0 0 1 0 1 
+state.FINISH 0 1 0 0 1 
+state.HALT 1 0 0 0 1 
+
+State Machine - |portable_shell|portable:p0|UARTCTL:uc1|state
+Name state.DONE state.ENABLE state.LD_TX state.LOAD state.READ state.INITIAL 
+state.INITIAL 0 0 0 0 0 0 
+state.READ 0 0 0 0 1 1 
+state.LOAD 0 0 0 1 0 1 
+state.LD_TX 0 0 1 0 0 1 
+state.ENABLE 0 1 0 0 0 1 
+state.DONE 1 0 0 0 0 1 

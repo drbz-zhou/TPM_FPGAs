@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/simulation/modelsim
+vuart
+Z1 !s110 1434486823
+!i10b 1
+!s100 _UVUSBCC17H32HLBfhIQY3
+IO;]P;JDVz]NbDKNPDFnkF3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1434444228
+8C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/uart.v
+FC:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/uart.v
+L0 7
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1434486823.113000
+!s107 C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable|C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/uart.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable}
+vUARTCTL
+R1
+!i10b 1
+!s100 ?HMU5DLSKTk8ikoE<n`En2
+I>QU9he?mmjN?kKb9SE<>Y1
+R2
+R0
+w1434446386
+8C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/UARTCTL.v
+FC:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/UARTCTL.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1434486822.597000
+!s107 C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/UARTCTL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable|C:/Users/Heber/Documents/TU Kaiserslautern/second semester/job/FPGA_portable/UARTCTL.v|
+!i113 1
+R4
+R5
+n@u@a@r@t@c@t@l
